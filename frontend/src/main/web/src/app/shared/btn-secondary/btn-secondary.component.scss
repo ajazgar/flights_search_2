@@ -5,6 +5,10 @@
   display: flex;
   justify-content: center;
 
+  &:focus {
+    outline: none;
+  }
+
   .btn-wrapper {
     width: auto;
     background-color: transparent;
