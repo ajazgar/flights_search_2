@@ -1,0 +1,6 @@
+<div class="box--wrapper">
+  <img src="../../../assets/icons/clock-circular-outline.svg"/>
+  <h5 *ngIf="router.url === '/loty/rezerwacja/' + id">Zostały tylko 3 miejsca w tej cenie!</h5>
+  <h5 *ngIf="router.url === '/hotele/rezerwacja/' + hotelId">Zostały tylko 2 pokoje w tej cenie!</h5>
+  <h5 *ngIf="router.url === '/samochody/rezerwacja/' + carId">Zostały tylko 2 samochody w tej cenie!</h5>
+</div>

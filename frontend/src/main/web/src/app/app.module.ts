@@ -25,6 +25,7 @@ import { BookingComponent } from './pages/booking/booking.component';
 import { ConfirmationComponent } from './shared/confirmation/confirmation.component';
 import { ArticleComponent } from './pages/article/article.component';
 import {FilterPipe} from "./shared/filter.pipe";
+import { LikeBoxComponent } from './shared/like-box/like-box.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import {FilterPipe} from "./shared/filter.pipe";
     BookingComponent,
     ConfirmationComponent,
     ArticleComponent,
-    FilterPipe
+    FilterPipe,
+    LikeBoxComponent
   ],
   imports: [
     BrowserModule,

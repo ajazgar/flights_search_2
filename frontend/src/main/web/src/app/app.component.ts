@@ -1,4 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, OnInit, ViewChild} from '@angular/core';
+import {ModalComponent} from "./shared/modal/modal.component";
+
 
 @Component({
   selector: 'app-root',
@@ -12,9 +14,18 @@ export class AppComponent implements OnInit {
   isTwoWays: boolean;
   isMultiCity: boolean;
 
-  constructor() {   }
+  @ViewChild(ModalComponent) myModal: ModalComponent;
+
+  constructor() {
+    setTimeout(() => {
+    }, 3000);
+  }
 
   ngOnInit() {
+  }
+
+  blabla() {
+
   }
 
 }

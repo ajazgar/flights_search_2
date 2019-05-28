@@ -1,0 +1,31 @@
+:host {
+  background: #ffffff;
+  width: auto;
+  border-radius: 8px;
+  padding: 12px;
+  align-self: flex-end;
+  align-items: center;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+  .box {
+
+    &--wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      h5 {
+        color: #FF5252;
+        display: inline-flex;
+        margin-bottom: 0px;
+      }
+
+      img {
+        width: 8%;
+        color: #FF5252;
+        display: inline-flex;
+        margin-right: 12px;
+      }
+    }
+  }
+}

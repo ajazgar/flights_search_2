@@ -6,3 +6,11 @@
   opacity: 0.5;
 }
 
+#wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: 0 -300px 200px -200px #fff inset;
+}

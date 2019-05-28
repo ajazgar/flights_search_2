@@ -4,12 +4,29 @@
     background-color: #D4D4CE;
 
     .modal-body, .modal-footer, .modal-header {
-      display: flex !important;
+      //display: flex !important;
       justify-content: center !important;
+      align-items: center;
+
+      img {
+        width: 70%;
+        margin-bottom: 12px;
+      }
+    }
+
+    .modal-body {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
     }
 
     form {
       width: 70%;
+
+      input {
+        border: none;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      }
     }
 
   }
