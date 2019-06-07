@@ -1,6 +1,10 @@
 <table class="table table-borderless" *ngIf="router.url === '/loty/rezerwacja/' + id">
   <thead>
   <tr>
+    <th scope="col" style="z-index: -1; height: 60px">
+      <span>{{price}} PLN</span>
+      <app-btn-primary [btnText]="'Rezerwuj'" [routerLink]="['/loty/booking/', id]"></app-btn-primary>
+    </th>
     <th scope="col">Nazwa linii</th>
     <th scope="col">Wylot</th>
     <th scope="col">Przylot</th>
